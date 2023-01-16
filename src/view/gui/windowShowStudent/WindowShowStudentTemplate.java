@@ -1,4 +1,4 @@
-package view.gui.windowTableGroups;
+package view.gui.windowShowStudent;
 
 import java.awt.EventQueue;
 
@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-public class WindowTableGroupsTemplate extends JFrame {
+public class WindowShowStudentTemplate extends JFrame {
 
 	private JPanel contentPane;
 
@@ -17,7 +17,7 @@ public class WindowTableGroupsTemplate extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					WindowTableGroupsTemplate frame = new WindowTableGroupsTemplate();
+					WindowShowStudentTemplate frame = new WindowShowStudentTemplate();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -29,7 +29,7 @@ public class WindowTableGroupsTemplate extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public WindowTableGroupsTemplate() {
+	public WindowShowStudentTemplate() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

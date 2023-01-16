@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 import misc.CatcherUtil;
 
-public class Student extends Person implements IBuildTable {
+public class Student extends Person implements IBuildRow {
 	
 	private Date entryDate; //Fecha de entrada
 	private String IDCard;  //Carnet
@@ -280,13 +280,7 @@ public class Student extends Person implements IBuildTable {
 
 
 
-	@Override
-	public String[] buildColummns() {
-		return null;
-	}
-
-
-
+	
 
 
 	

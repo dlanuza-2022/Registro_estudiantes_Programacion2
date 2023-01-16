@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
 
-public class Group implements IBuildTable {
+public class Group implements IBuildRow {
 	private Grade grade;
 	private Section section;
 	private ArrayList<Student> students;
@@ -134,11 +134,6 @@ public class Group implements IBuildTable {
 		return row;
 	}
 
-	@Override
-	public String[] buildColummns() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 	
 
